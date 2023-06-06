@@ -29,7 +29,7 @@ let linea = document.getElementById('linea');
 let elemlinea = document.getElementById('elem-linea');
 let btnEmpezar = document.getElementById('btn-empezar');
 let setUser = document.getElementById('set-user');
-let urlServer = "https://localhost/tesalia/Backend-Repuestos/login/get_sessionJS.php";
+let urlServer = "http://erik-backend.000.pe/login/get_sessionJS.php";
 
 const connServer1 = new ConServer();
 
