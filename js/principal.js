@@ -18,7 +18,7 @@ window.onload = function(){
     promesa.then(function(value){
         let user = JSON.parse(value);
         if(user[0] == undefined){
-            window.location.href = "https://localhost/tesalia/Repuestos";
+            window.location.href = "https://inegcep.com";
           }else{
             setUser.innerHTML = "Bienvenido " + user[0];
           }
