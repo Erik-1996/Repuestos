@@ -59,9 +59,9 @@ let tCantidadVal = [];
 let tUnidadVal = [];
 let valores = {};
 
-let urlServer = "https://localhost/tesalia/Backend-Repuestos/login/get_sessionJS.php";
-let urlServer2 = "https://localhost/tesalia/Backend-Repuestos/paginas/repuestos/data_repuestos.php";
-let urlDataLink = "https://localhost/tesalia/Backend-Repuestos/paginas/repuestod_DDBB.php";
+let urlServer = "http://erik-backend.000.pe/login/get_sessionJS.php";
+let urlServer2 = "http://erik-backend.000.pe/paginas/repuestos/data_repuestos.php";
+let urlDataLink = "http://erik-backend.000.pe/paginas/repuestod_DDBB.php";
 let setUser = document.getElementById('set-user-2');
 let titleRepuestos = document.getElementById('title-repuestos');
 
